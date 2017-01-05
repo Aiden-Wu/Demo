@@ -1,2 +1,1 @@
-a
-aaaa
+	CONCAT(IFNULL(o.arrival_province,''),IFNULL(o.arrival_city,''),IFNULL(o.arrival_district,''),IFNULL(o.arrival_street,''),IFNULL(o.arrival_detail)) AS address,
